@@ -290,7 +290,6 @@
                 <property name="visible">True</property>
                 <property name="can_focus">True</property>
                 <property name="max_length">3</property>
-                <property name="max_width_chars">3</property>
                 <property name="input_purpose">number</property>
               </object>
               <packing>
@@ -373,6 +372,7 @@
                 <property name="receives_default">True</property>
                 <property name="image">playbutton</property>
                 <property name="always_show_image">True</property>
+                <signal name="clicked" handler="on_buttonRun_clicked" swapped="no"/>
               </object>
               <packing>
                 <property name="expand">True</property>
