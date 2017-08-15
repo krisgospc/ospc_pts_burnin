@@ -40,7 +40,7 @@ class Handler:
         app.aboutwindow.hide()
 
 builder = Gtk.Builder()
-builder.add_from_file("ptsgui.glade")
+builder.add_from_file("./data/ptsgui.glade")
 builder.connect_signals(Handler())
 
 if __name__ == "__main__":
