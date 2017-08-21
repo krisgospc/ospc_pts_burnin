@@ -6,7 +6,6 @@ gi.require_version('Gtk', '3.0')
 from gi.repository import Gio, GLib, Gtk
 
 
-
 class frontend(Gtk.Application):
     def __repr__(self):
         return '<Application>'
@@ -20,10 +19,14 @@ class frontend(Gtk.Application):
     def new_window(self, *args):
         AppWindow(self)
 
+    def new_about_window(self, *args):
+        AboutWindow(self)
+
+
 class Handler:
     """ all Glade signals go here """
 
-    #Main window items
+    # Main window items
     def on_quit(self):
         Gtk.Application.quit(Application)
 
@@ -36,7 +39,7 @@ class Handler:
     def on_deleteWindow(self, event, args):
         self.on_quit()
 
-    #Menu items
+    # Menu items
     def on_menuAbout_activate(self, menuitem):
         AboutWindow.open_about()
 
@@ -46,8 +49,9 @@ class Handler:
     def on_aboutClose_clicked(self, button):
         AboutWindow.close_about()
 
+
 class Builder():
-        #try to read Glade file
+        # try to read Glade file
         try:
             global builder
             builder = Gtk.Builder()
@@ -57,6 +61,7 @@ class Builder():
             raise
         builder.connect_signals(Handler())
 
+
 class AppWindow(Gtk.ApplicationWindow):
     def __init__(self, application):
         self.Application = application
@@ -64,24 +69,27 @@ class AppWindow(Gtk.ApplicationWindow):
         mainWindow.set_application(application)
         mainWindow.show()
 
+
 class AboutWindow(Gtk.AboutDialog):
-    def __init__(self, app):
-        self.Application = app
+    def __init__(self):
         global awopen
         awopen = builder.get_object("aboutWindow")
 
     @classmethod
     def open_about(self):
-        awopen.show_all()
-    
+        AboutWindow.__init__(self)
+        awopen.show()
+
     @classmethod
     def close_about(self):
         awopen.hide()
+
 
 def main():
     global Application
     Application = frontend()
     Application.run()
+
 
 if __name__ == "__main__":
     main()
