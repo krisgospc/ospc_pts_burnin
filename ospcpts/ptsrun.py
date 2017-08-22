@@ -3,10 +3,12 @@
 
 import json
 
-#basic JSON write
+# basic JSON write
 with open('filename.json', 'w') as f:
     json.dump(data, f)
 
-#basic JSON read
+# basic JSON read
 with open('filename.json', 'r') as r:
     data_struct = json.load(f)
+
+read_file('')
