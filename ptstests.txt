@@ -1,17 +1,19 @@
 Phoronix Test Suite v7.2.1
 Available Tests
 
-pts/aio-stress                 - AIO-Stress                          Disk     
-pts/apache                     - Apache Benchmark                    System   
-pts/apitest                    - APITest                             Graphics 
-pts/apitrace                   - APITrace                            Graphics 
+
+
+pts/aio-stress                 - AIO-Stress                          Disk
+pts/apache                     - Apache Benchmark                    System
+pts/apitest                    - APITest                             Graphics
+pts/apitrace                   - APITrace                            Graphics
 pts/arrayfire                  - ArrayFire                           Processor
-pts/askap                      - ASKAP tConvolveCuda                 Graphics 
-pts/battery-power-usage        - Battery Power Usage                 System   
-pts/bioshock-infinite          - BioShock Infinite                   Graphics 
+pts/askap                      - ASKAP tConvolveCuda                 Graphics
+pts/battery-power-usage        - Battery Power Usage                 System
+pts/bioshock-infinite          - BioShock Infinite                   Graphics
 pts/blake2                     - BLAKE2                              Processor
-pts/blender                    - Blender                             System   
-pts/blogbench                  - BlogBench                           Disk     
+pts/blender                    - Blender                             System
+pts/blogbench                  - BlogBench                           Disk
 pts/bork                       - Bork File Encrypter                 Processor
 pts/botan                      - Botan                               Processor
 pts/build-apache               - Timed Apache Compilation            Processor
@@ -28,173 +30,173 @@ pts/bullet                     - Bullet Physics Engine               Processor
 pts/byte                       - BYTE Unix Benchmark                 Processor
 pts/c-ray                      - C-Ray                               Processor
 pts/cachebench                 - CacheBench                          Processor
-pts/caffe                      - Caffe                               System   
-pts/cairo-demos                - Cairo Performance Demos             Graphics 
-pts/cairo-perf-trace           - cairo-perf-trace                    Graphics 
-pts/civbe                      - Civilization: Beyond Earth          Graphics 
-pts/civilization-vi            - Civilization VI                     Graphics 
-pts/cl-mem                     - cl-mem                              Graphics 
+pts/caffe                      - Caffe                               System
+pts/cairo-demos                - Cairo Performance Demos             Graphics
+pts/cairo-perf-trace           - cairo-perf-trace                    Graphics
+pts/civbe                      - Civilization: Beyond Earth          Graphics
+pts/civilization-vi            - Civilization VI                     Graphics
+pts/cl-mem                     - cl-mem                              Graphics
 pts/clomp                      - CLOMP                               Processor
-pts/coh2                       - Company of Heroes 2                 Graphics 
-pts/comd-cl                    - CoMD OpenCL                         System   
-pts/compilebench               - Compile Bench                       Disk     
+pts/coh2                       - Company of Heroes 2                 Graphics
+pts/comd-cl                    - CoMD OpenCL                         System
+pts/compilebench               - Compile Bench                       Disk
 pts/compress-7zip              - 7-Zip Compression                   Processor
 pts/compress-gzip              - Gzip Compression                    Processor
 pts/compress-lzma              - LZMA Compression                    Processor
 pts/compress-pbzip2            - Parallel BZIP2 Compression          Processor
-pts/corebreach                 - CoreBreach                          Graphics 
+pts/corebreach                 - CoreBreach                          Graphics
 pts/crafty                     - Crafty                              Processor
-pts/csgo                       - Counter-Strike: Global Offensive    Graphics 
-pts/cstrike                    - Counter-Strike Source               Graphics 
-pts/cuda-mini-nbody            - CUDA Mini-Nbody                     Graphics 
-pts/cyclictest                 - Cyclictest                          System   
-pts/dbench                     - Dbench                              Disk     
+pts/csgo                       - Counter-Strike: Global Offensive    Graphics
+pts/cstrike                    - Counter-Strike Source               Graphics
+pts/cuda-mini-nbody            - CUDA Mini-Nbody                     Graphics
+pts/cyclictest                 - Cyclictest                          System
+pts/dbench                     - Dbench                              Disk
 pts/dcraw                      - dcraw                               Processor
-pts/deus-exmd                  - Deus Ex: Mankind Divided            Graphics 
-pts/dirt-rally                 - DiRT Rally                          Graphics 
-pts/dirt-showdown              - DiRT Showdown                       Graphics 
+pts/deus-exmd                  - Deus Ex: Mankind Divided            Graphics
+pts/dirt-rally                 - DiRT Rally                          Graphics
+pts/dirt-showdown              - DiRT Showdown                       Graphics
 pts/dolfyn                     - Dolfyn                              Processor
-pts/doom3                      - Doom 3                              Graphics 
-pts/dota2                      - Dota 2                              Graphics 
-pts/dow3                       - Dawn of War III                     Graphics 
+pts/doom3                      - Doom 3                              Graphics
+pts/dota2                      - Dota 2                              Graphics
+pts/dow3                       - Dawn of War III                     Graphics
 pts/ebizzy                     - ebizzy                              Processor
-pts/encode-ape                 - Monkey Audio Encoding                        
-pts/encode-flac                - FLAC Audio Encoding                          
-pts/encode-mp3                 - LAME MP3 Encoding                            
-pts/encode-ogg                 - Ogg Encoding                                 
-pts/encode-opus                - Opus Codec Encoding                          
-pts/encode-wavpack             - WavPack Audio Encoding                       
+pts/encode-ape                 - Monkey Audio Encoding
+pts/encode-flac                - FLAC Audio Encoding
+pts/encode-mp3                 - LAME MP3 Encoding
+pts/encode-ogg                 - Ogg Encoding
+pts/encode-opus                - Opus Codec Encoding
+pts/encode-wavpack             - WavPack Audio Encoding
 pts/espeak                     - eSpeak Speech Engine                Processor
-pts/et                         - Enemy Territory                     Graphics 
-pts/etlegacy                   - ET: Legacy                          Graphics 
-pts/etqw                       - ET: Quake Wars                      Graphics 
-pts/etqw-demo                  - ET: Quake Wars Demo                 Graphics 
-pts/etqw-demo-iqc              - ET: Quake Wars Image Quality        System   
-pts/etxreal                    - ETXreaL                             Graphics 
-pts/f12015                     - F1 2015                             Graphics 
-pts/fahbench                   - FAHBench                            System   
+pts/et                         - Enemy Territory                     Graphics
+pts/etlegacy                   - ET: Legacy                          Graphics
+pts/etqw                       - ET: Quake Wars                      Graphics
+pts/etqw-demo                  - ET: Quake Wars Demo                 Graphics
+pts/etqw-demo-iqc              - ET: Quake Wars Image Quality        System
+pts/etxreal                    - ETXreaL                             Graphics
+pts/f12015                     - F1 2015                             Graphics
+pts/fahbench                   - FAHBench                            System
 pts/ffmpeg                     - FFmpeg                              Processor
 pts/ffte                       - FFTE                                Processor
 pts/fftw                       - FFTW                                Processor
 pts/fhourstones                - Fhourstones                         Processor
-pts/financebench               - FinanceBench                        Graphics 
-pts/fio                        - Flexible IO Tester                  Disk     
-pts/fs-mark                    - FS-Mark                             Disk     
+pts/financebench               - FinanceBench                        Graphics
+pts/fio                        - Flexible IO Tester                  Disk
+pts/fs-mark                    - FS-Mark                             Disk
 pts/gcrypt                     - Gcrypt Library                      Processor
-pts/gfxbench                   - GFXBench                            Graphics 
-pts/gl-vs-vk                   - GL-vs-VK                            Graphics 
+pts/gfxbench                   - GFXBench                            Graphics
+pts/gl-vs-vk                   - GL-vs-VK                            Graphics
 pts/glibc-bench                - glibc bench                         Processor
-pts/glmark2                    - GLmark2                             Graphics 
-pts/gluxmark                   - gluxMark                            Graphics 
+pts/glmark2                    - GLmark2                             Graphics
+pts/gluxmark                   - gluxMark                            Graphics
 pts/gmpbench                   - GMPbench                            Processor
 pts/gnupg                      - GnuPG                               Processor
 pts/go-benchmark               - Go Benchmarks                       Processor
 pts/gpu-residency              - GPU Residency                       Processor
-pts/gputest                    - GpuTest                             Graphics 
+pts/gputest                    - GpuTest                             Graphics
 pts/graphics-magick            - GraphicsMagick                      Processor
-pts/gtkperf                    - GtkPerf                             Graphics 
-pts/hdparm-read                - hdparm Timed Disk Reads             Disk     
+pts/gtkperf                    - GtkPerf                             Graphics
+pts/hdparm-read                - hdparm Timed Disk Reads             Disk
 pts/himeno                     - Himeno Benchmark                    Processor
-pts/hint                       - Hierarchical INTegration            System   
-pts/hitman                     - HITMAN                              Graphics 
-pts/hl2lostcoast               - Half-Life 2 - Lost Coast            Graphics 
+pts/hint                       - Hierarchical INTegration            System
+pts/hitman                     - HITMAN                              Graphics
+pts/hl2lostcoast               - Half-Life 2 - Lost Coast            Graphics
 pts/hmmer                      - Timed HMMer Search                  Processor
 pts/hpcc                       - HPC Challenge                       Processor
 pts/hpcg                       - High Performance Conjugate Gradient Processor
-pts/idle                       - Timed Idle                          System   
-pts/idle-power-usage           - Idle Power Usage                    System   
-pts/insurgency                 - Insurgency                          Graphics 
-pts/interbench                 - Interbench                          System   
-pts/iozone                     - IOzone                              Disk     
-pts/iperf                      - iPerf                               Network  
-pts/j2dbench                   - Java 2D Microbenchmark              Graphics 
+pts/idle                       - Timed Idle                          System
+pts/idle-power-usage           - Idle Power Usage                    System
+pts/insurgency                 - Insurgency                          Graphics
+pts/interbench                 - Interbench                          System
+pts/iozone                     - IOzone                              Disk
+pts/iperf                      - iPerf                               Network
+pts/j2dbench                   - Java 2D Microbenchmark              Graphics
 pts/java-scimark2              - Java SciMark                        Processor
 pts/jgfxbat                    - Java Graphics Basic Acceptance Test Processor
 pts/john-the-ripper            - John The Ripper                     Processor
-pts/juliagpu                   - JuliaGPU                            System   
-pts/jxrendermark               - JXRenderMark                        Graphics 
+pts/juliagpu                   - JuliaGPU                            System
+pts/jxrendermark               - JXRenderMark                        Graphics
 pts/lammps                     - LAMMPS Molecular Dynamics Simulator Processor
-pts/lightsmark                 - Lightsmark                          Graphics 
-pts/lulesh-cl                  - Lulesh OpenCL                       System   
-pts/luxmark                    - LuxMark                             System   
+pts/lightsmark                 - Lightsmark                          Graphics
+pts/lulesh-cl                  - Lulesh OpenCL                       System
+pts/luxmark                    - LuxMark                             System
 pts/lzbench                    - lzbench                             Processor
-pts/madmax                     - Mad Max                             Graphics 
+pts/madmax                     - Mad Max                             Graphics
 pts/mafft                      - Timed MAFFT Alignment               Processor
-pts/mandelbulbgpu              - MandelbulbGPU                       System   
-pts/mandelgpu                  - MandelGPU                           System   
-pts/mcperf                     - Memcached 1.3.34 mcperf             System   
+pts/mandelbulbgpu              - MandelbulbGPU                       System
+pts/mandelgpu                  - MandelGPU                           System
+pts/mcperf                     - Memcached 1.3.34 mcperf             System
 pts/mencoder                   - Mencoder                            Processor
-pts/metro2033-redux            - Metro 2033 Redux                    Graphics 
-pts/metroll-redux              - Metro: Last Light Redux             Graphics 
+pts/metro2033-redux            - Metro 2033 Redux                    Graphics
+pts/metroll-redux              - Metro: Last Light Redux             Graphics
 pts/minion                     - Minion                              Processor
-pts/mixbench                   - Mixbench                            Graphics 
+pts/mixbench                   - Mixbench                            Graphics
 pts/mrbayes                    - Timed MrBayes Analysis              Processor
 pts/multichase                 - Multichase Pointer Chaser           Processor
 pts/n-queens                   - N-Queens                            Processor
 pts/nero2d                     - Open FMM Nero2D                     Processor
-pts/netperf                    - Netperf                             Network  
-pts/network-loopback           - Loopback TCP Network Performance    Network  
-pts/nexuiz                     - Nexuiz                              Graphics 
-pts/nexuiz-iqc                 - Nexuiz Image Quality                System   
-pts/nginx                      - NGINX Benchmark                     System   
+pts/netperf                    - Netperf                             Network
+pts/network-loopback           - Loopback TCP Network Performance    Network
+pts/nexuiz                     - Nexuiz                              Graphics
+pts/nexuiz-iqc                 - Nexuiz Image Quality                System
+pts/nginx                      - NGINX Benchmark                     System
 pts/noise-level                - NoiseLevel                          Processor
 pts/npb                        - NAS Parallel Benchmarks             Processor
 pts/numpy                      - Numpy Benchmark                     Processor
-pts/octanebench                - OctaneBench                         Graphics 
+pts/octanebench                - OctaneBench                         Graphics
 pts/open-porous-media          - Open Porous Media                   Processor
-pts/openarena                  - OpenArena                           Graphics 
-pts/opendwarfs                 - OpenDwarfs                          System   
+pts/openarena                  - OpenArena                           Graphics
+pts/opendwarfs                 - OpenDwarfs                          System
 pts/openssl                    - OpenSSL                             Processor
 pts/opm-git                    - Open Porous Media Git               Processor
-pts/padman                     - World of Padman                     Graphics 
+pts/padman                     - World of Padman                     Graphics
 pts/parboil                    - Parboil                             Processor
 pts/perl-benchmark             - Perl Benchmarks                     Processor
-pts/pgbench                    - PostgreSQL pgbench                  System   
-pts/phpbench                   - PHPBench                            System   
+pts/pgbench                    - PostgreSQL pgbench                  System
+pts/phpbench                   - PHPBench                            System
 pts/polybench-c                - PolyBench-C                         Processor
-pts/portal                     - Portal                              Graphics 
-pts/postmark                   - PostMark                            Disk     
+pts/portal                     - Portal                              Graphics
+pts/postmark                   - PostMark                            Disk
 pts/povray                     - POV-Ray                             Processor
 pts/powertop-wakeups           - Powertop Wakeups                    Processor
-pts/ppracer                    - Planet Penguin Racer                Graphics 
-pts/prey                       - Prey                                Graphics 
+pts/ppracer                    - Planet Penguin Racer                Graphics
+pts/prey                       - Prey                                Graphics
 pts/primesieve                 - Primesieve                          Processor
 pts/psstop                     - PSSTOP Memory test                  Processor
-pts/pts-self-test              - Phoronix Test Suite Self Test       System   
-pts/pybench                    - PyBench                             System   
-pts/pyopencl                   - PyOpenCL                            System   
-pts/qgears2                    - QGears2                             Graphics 
-pts/quake4                     - Quake 4                             Graphics 
-pts/qvdpautest                 - qVDPAUtest                          Graphics 
-pts/ramspeed                   - RAMspeed SMP                        Memory   
+pts/pts-self-test              - Phoronix Test Suite Self Test       System
+pts/pybench                    - PyBench                             System
+pts/pyopencl                   - PyOpenCL                            System
+pts/qgears2                    - QGears2                             Graphics
+pts/quake4                     - Quake 4                             Graphics
+pts/qvdpautest                 - qVDPAUtest                          Graphics
+pts/ramspeed                   - RAMspeed SMP                        Memory
 pts/rbenchmark                 - R Benchmark                         Processor
-pts/reaction                   - Reaction Quake 3                    Graphics 
-pts/redis                      - Redis                               System   
-pts/render-bench               - Render Bench                        Graphics 
+pts/reaction                   - Reaction Quake 3                    Graphics
+pts/redis                      - Redis                               System
+pts/render-bench               - Render Bench                        Graphics
 pts/rodinia                    - Rodinia                             Processor
-pts/sam2017                    - Serious Sam Fusion 2017             Graphics 
-pts/sample-pass-fail           - Sample Pass Fail                    System   
+pts/sam2017                    - Serious Sam Fusion 2017             Graphics
+pts/sample-pass-fail           - Sample Pass Fail                    System
 pts/sample-program             - Sample Pi Program                   Processor
-pts/scikit-learn               - Scikit-Learn                        System   
+pts/scikit-learn               - Scikit-Learn                        System
 pts/scimark2                   - SciMark                             Processor
-pts/serial-loopback            - Serial Loopback Test                System   
-pts/shoc                       - SHOC Scalable HeterOgeneous Computing Graphics 
+pts/serial-loopback            - Serial Loopback Test                System
+pts/shoc                       - SHOC Scalable HeterOgeneous Computing Graphics
 pts/smallpt                    - Smallpt                             Processor
-pts/smallpt-gpu                - SmallPT GPU                         System   
-pts/smart                      - SMART Disk Self-Report              Disk     
-pts/smokin-guns                - Smokin Guns                         Graphics 
-pts/specviewperf10             - SPECViewPerf 10.1                   Graphics 
-pts/specviewperf9              - SPECViewPerf 9                      Graphics 
-pts/sqlite                     - SQLite                              Disk     
-pts/ss3bfe                     - Serious Sam 3: BFE                  Graphics 
-pts/startup-time               - Application Start-up Time           Disk     
+pts/smallpt-gpu                - SmallPT GPU                         System
+pts/smart                      - SMART Disk Self-Report              Disk
+pts/smokin-guns                - Smokin Guns                         Graphics
+pts/specviewperf10             - SPECViewPerf 10.1                   Graphics
+pts/specviewperf9              - SPECViewPerf 9                      Graphics
+pts/sqlite                     - SQLite                              Disk
+pts/ss3bfe                     - Serious Sam 3: BFE                  Graphics
+pts/startup-time               - Application Start-up Time           Disk
 pts/stockfish                  - Stockfish                           Processor
-pts/stream                     - Stream                              Memory   
-pts/stress-ng                  - Stress-NG                           System   
+pts/stream                     - Stream                              Memory
+pts/stress-ng                  - Stress-NG                           System
 pts/stresscpu2                 - StressCPU2 Stress-Test              Processor
 pts/sudokut                    - Sudokut                             Processor
-pts/sunflow                    - Sunflow Rendering System            System   
-pts/supertuxkart               - SuperTuxKart                        Graphics 
+pts/sunflow                    - Sunflow Rendering System            System
+pts/supertuxkart               - SuperTuxKart                        Graphics
 pts/system-decompress-bzip2    - System BZIP2 Decompression          Processor
 pts/system-decompress-gzip     - System GZIP Decompression           Processor
 pts/system-decompress-tiff     - System Libtiff Decompression        Processor
@@ -206,56 +208,55 @@ pts/systemd-boot-kernel        - Systemd Kernel Boot Time            Processor
 pts/systemd-boot-total         - Systemd Total Boot Time             Processor
 pts/systemd-boot-userspace     - Systemd Userspace Boot Time         Processor
 pts/systester                  - SysTester                           Processor
-pts/t-test1                    - t-test1                             Memory   
+pts/t-test1                    - t-test1                             Memory
 pts/tachyon                    - Tachyon                             Processor
-pts/talos-principle            - The Talos Principle                 Graphics 
-pts/tensorflow                 - Tensorflow                          System   
-pts/tesseract                  - Tesseract                           Graphics 
-pts/tf2                        - Team Fortress 2                     Graphics 
-pts/tiobench                   - Threaded I/O Tester                 Disk     
-pts/tjbench                    - libjpeg-turbo tjbench               System   
-pts/tomb-raider                - Tomb Raider                         Graphics 
-pts/tremulous                  - Tremulous                           Graphics 
-pts/trislam                    - Triangle Slammer                    Graphics 
+pts/talos-principle            - The Talos Principle                 Graphics
+pts/tensorflow                 - Tensorflow                          System
+pts/tesseract                  - Tesseract                           Graphics
+pts/tf2                        - Team Fortress 2                     Graphics
+pts/tiobench                   - Threaded I/O Tester                 Disk
+pts/tjbench                    - libjpeg-turbo tjbench               System
+pts/tomb-raider                - Tomb Raider                         Graphics
+pts/tremulous                  - Tremulous                           Graphics
+pts/trislam                    - Triangle Slammer                    Graphics
 pts/tscp                       - TSCP                                Processor
 pts/ttsiod-renderer            - TTSIOD 3D Renderer                  Processor
-pts/ue4-atlantis               - Atlantis Substance Demo             Graphics 
-pts/ue4-elemental              - Elemental Demo                      Graphics 
-pts/ue4-matinee                - Matinee Fight Scene Demo            Graphics 
-pts/ue4-mountains              - Landscape Mountains Demo            Graphics 
-pts/unigine-heaven             - Unigine Heaven                      Graphics 
-pts/unigine-sanctuary          - Unigine Sanctuary                   Graphics 
-pts/unigine-super              - Unigine Superposition               Graphics 
-pts/unigine-tropics            - Unigine Tropics                     Graphics 
-pts/unigine-valley             - Unigine Valley                      Graphics 
-pts/unpack-linux               - Unpacking The Linux Kernel          Disk     
-pts/unvanquished               - Unvanquished                        Graphics 
-pts/urbanterror                - Urban Terror                        Graphics 
-pts/ut2004-demo                - Unreal Tournament 2004 Demo         Graphics 
-pts/vdrift                     - VDrift                              Graphics 
-pts/video-cpu-usage            - 1080p H.264 Video Playback          Graphics 
-pts/viennacl                   - ViennaCL                            Graphics 
+pts/ue4-atlantis               - Atlantis Substance Demo             Graphics
+pts/ue4-elemental              - Elemental Demo                      Graphics
+pts/ue4-matinee                - Matinee Fight Scene Demo            Graphics
+pts/ue4-mountains              - Landscape Mountains Demo            Graphics
+pts/unigine-heaven             - Unigine Heaven                      Graphics
+pts/unigine-sanctuary          - Unigine Sanctuary                   Graphics
+pts/unigine-super              - Unigine Superposition               Graphics
+pts/unigine-tropics            - Unigine Tropics                     Graphics
+pts/unigine-valley             - Unigine Valley                      Graphics
+pts/unpack-linux               - Unpacking The Linux Kernel          Disk
+pts/unvanquished               - Unvanquished                        Graphics
+pts/urbanterror                - Urban Terror                        Graphics
+pts/ut2004-demo                - Unreal Tournament 2004 Demo         Graphics
+pts/vdrift                     - VDrift                              Graphics
+pts/video-cpu-usage            - 1080p H.264 Video Playback          Graphics
+pts/viennacl                   - ViennaCL                            Graphics
 pts/vpxenc                     - VP8 libvpx Encoding                 Processor
-pts/warsow                     - Warsow                              Graphics 
-pts/x11perf                    - x11perf                             Graphics 
+pts/warsow                     - Warsow                              Graphics
+pts/x11perf                    - x11perf                             Graphics
 pts/x264                       - x264                                Processor
 pts/x264-opencl                - x264 OpenCL                         Processor
-pts/xonotic                    - Xonotic                             Graphics 
-pts/xplane9                    - X-Plane                             Graphics 
-pts/xplane9-iqc                - X-Plane Image Quality               System   
-pts/xsbench                    - Xsbench                             System   
-pts/xsbench-cl                 - Xsbench OpenCL                      System   
-system/apache                  - Apache Benchmark                             
-system/blender                 - Blender                             System   
-system/caffe                   - Caffe                                        
-system/clpeak                  - clpeak                              System   
-system/compress-lzma           - LZMA Compression                             
-system/compress-pbzip2         - PBZIP2 Compression                           
-system/darktable               - Darktable                           System   
-system/ethminer                - Ethereum Ethminer                   System   
-system/gimp                    - GIMP                                System   
+pts/xonotic                    - Xonotic                             Graphics
+pts/xplane9                    - X-Plane                             Graphics
+pts/xplane9-iqc                - X-Plane Image Quality               System
+pts/xsbench                    - Xsbench                             System
+pts/xsbench-cl                 - Xsbench OpenCL                      System
+system/apache                  - Apache Benchmark
+system/blender                 - Blender                             System
+system/caffe                   - Caffe
+system/clpeak                  - clpeak                              System
+system/compress-lzma           - LZMA Compression
+system/compress-pbzip2         - PBZIP2 Compression
+system/darktable               - Darktable                           System
+system/ethminer                - Ethereum Ethminer                   System
+system/gimp                    - GIMP                                System
 system/gnupg                   - GnuPG                               Processor
-system/openssl                 - OpenSSL                                      
-system/redis                   - Redis                                        
-system/sqlite                  - SQLite                                       
-
+system/openssl                 - OpenSSL
+system/redis                   - Redis
+system/sqlite                  - SQLite
