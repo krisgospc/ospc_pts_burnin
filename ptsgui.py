@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """ Frontend for phoronix-test-suite"""
 
+from gi.repository import Gio, GLib, Gtk
 import gi
 gi.require_version('Gtk', '3.0')
-from gi.repository import Gio, GLib, Gtk
 
 
 class frontend(Gtk.Application):
@@ -12,7 +12,7 @@ class frontend(Gtk.Application):
 
     def __init__(self):
         Gtk.Application.__init__(self,
-                                 application_id="com.xoticpc.ptsfrontend",
+                                 application_id="com.opensourcepc.ptsfrontend",
                                  flags=Gio.ApplicationFlags.FLAGS_NONE)
         self.connect("activate", self.new_window)
 
