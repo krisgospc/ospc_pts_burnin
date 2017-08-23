@@ -1,6 +1,0 @@
-{
-    "python.unitTest.pyTestArgs": [
-        "data"
-    ],
-    "python.unitTest.pyTestEnabled": true
-}
