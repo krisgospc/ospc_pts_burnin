@@ -1,6 +1,5 @@
-
-[1;32mPhoronix Test Suite v7.2.1[0m
-[1;32mAvailable Tests[0m
+Phoronix Test Suite v7.2.1
+Available Tests
 
 pts/aio-stress                 - AIO-Stress                          Disk     
 pts/apache                     - Apache Benchmark                    System   
